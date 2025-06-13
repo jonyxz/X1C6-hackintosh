@@ -49,7 +49,7 @@ Using `MacbookPro15,2` SMBIOS
 - Sleep 
 - Wifi - Use [Heliport v1.5.0](https://github.com/OpenIntelWireless/HeliPort/releases/tag/v1.5.0)
 - Bluetooth
-- All FN Keys - Use [Thinkpad Assistant app](https://github.com/MSzturc/ThinkpadAssistant/releases))
+- All FN Keys - Use [Thinkpad Assistant app](https://github.com/MSzturc/ThinkpadAssistant/releases)
 
 # What doesn't work / Haven't tested
 - Fingerprint sensor - Touch ID (It will never work) (Disabled in BIOS)
