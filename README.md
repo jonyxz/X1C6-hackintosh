@@ -46,7 +46,7 @@ Using `MacbookPro15,2` SMBIOS
 - Webcam
 - Microphone
 - Display Brightness
-- Sleep 
+- Sleep / Wake
 - Wifi - Use [Heliport v1.5.0](https://github.com/OpenIntelWireless/HeliPort/releases/tag/v1.5.0)
 - Bluetooth
 - All FN Keys - Use [Thinkpad Assistant app](https://github.com/MSzturc/ThinkpadAssistant/releases)
@@ -54,12 +54,12 @@ Using `MacbookPro15,2` SMBIOS
 # What doesn't work / Haven't tested
 - Fingerprint sensor - Touch ID (It will never work) (Disabled in BIOS)
 - HDMI - Haven't Tested
-- Thunderbolt 3 - Haven't Tested
 - microSD Card Reader - Haven't Tested
-- Touch Screen - Doesn't work 
+- Touch Screen - Doesn't work
 
-# Bugs
-- Wake after Sleep
+# Known Issues
+- Thunderbolt 3 - Functional, but causes kernel panics on wake from sleep.
+    * Note: It is strongly recommended to keep this disabled in the BIOS for system stability if you do not use Thunderbolt devices.
 
 # Pre-Installation
 1. Follow tylernguyen's [guide](https://tylernguyen.github.io/x1c6-hackintosh/).
