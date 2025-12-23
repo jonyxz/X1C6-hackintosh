@@ -1,6 +1,6 @@
 # MacOS for ThinkPad X1 Carbon Gen 6th [20KG]
 
-This project provides a complete and functional macOS Sonoma `14.7.6` build for the ThinkPad X1 Carbon 6th Gen (model 20KG). It is based on the excellent guides from [tylernguyen](https://github.com/tylernguyen/x1c6-hackintosh) and [Rybo713](https://github.com/Rybo713/X1C6-macOS), with modified ACPI patches and updated kexts.
+This project provides a complete and functional macOS Sonoma `14.8.2` build for the ThinkPad X1 Carbon 6th Gen (model 20KG). It is based on the excellent guides from [tylernguyen](https://github.com/tylernguyen/x1c6-hackintosh) and [Rybo713](https://github.com/Rybo713/X1C6-macOS), with modified ACPI patches and updated kexts.
 
 Using `MacbookPro15,2` SMBIOS
 
@@ -30,7 +30,7 @@ Using `MacbookPro15,2` SMBIOS
 
 ## Tested macOS Versions
 
-- **macOS Sonoma**: 14.7.6
+- **macOS Sonoma**: 14.7.6 , 14.8.2
 
 # What Works
 - Audio
@@ -43,6 +43,7 @@ Using `MacbookPro15,2` SMBIOS
 - USB C Ports
 - Trackpad, with full gestures
 - Trackpoint
+- Touchscreen
 - Webcam
 - Microphone
 - Display Brightness
@@ -55,7 +56,6 @@ Using `MacbookPro15,2` SMBIOS
 - Fingerprint sensor - Touch ID (It will never work) (Disabled in BIOS)
 - HDMI - Haven't Tested
 - microSD Card Reader - Haven't Tested
-- Touch Screen - Doesn't work
 
 # Known Issues
 - Thunderbolt 3 - Functional, but causes kernel panics on wake from sleep.
